@@ -49,6 +49,6 @@ Route::get('/inicioSesion', 'StockController@inicioSesion');
 Route::resource('/categoria', 'CategoriasController');
 Route::resource('/sucursal', 'SucursalesController');
 Route::resource('/producto', 'ProductosController');
-Route::resource('/stockprodsucur', 'StockProdSucurController');
+//Route::resource('/stockprodsucur', 'StockProdSucurController');
 
 
